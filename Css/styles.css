@@ -1,0 +1,52 @@
+.jumbotron {
+  margin: 0px auto;
+  padding: 85px 10px 30px 10px;
+  background: #484AB9;
+  color: floralwhite; }
+
+.footer {
+  margin: 0px auto;
+  padding: 30px 0px;
+  background: #9692fc;
+  color: floralwhite;
+}
+/*
+2d2942  navFF5C28
+EB4C36   */
+.loginform {
+  margin-top: 50px;
+}
+
+.navbar-dark {
+  background-color: #3a3ac7;
+}
+
+.card-img-top {
+  max-width: 200px;
+  max-height: 215px;
+  margin-left: 65px;
+}
+
+body {
+  background: #fff;
+  color: black;
+}
+
+body .card-body {
+  color: #0e0929
+}
+
+/* .form-color {
+  background: #37403f;
+} */
+
+canvas {
+   /* height: 200px; */
+   border: 1px solid #e1e1e3;
+   background-color: #e1e1e3;
+   border-radius: 2mm;
+   /* padding: 0mm; */
+   /* margin-left: 0.7%;
+   margin-right: 0%;
+   margin-bottom: 1%; */
+}
