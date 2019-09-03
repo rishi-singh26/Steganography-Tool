@@ -53,7 +53,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./contactus.html"
-                ><span class="fa fa-address-card fa-lg"></span> Contact Us</a
+                ><span class="fa fa-lightbulb-o fa-lg"></span> Feedback</a
               >
             </li>
           </ul>
@@ -77,6 +77,32 @@
   </header>
 
 
+<!-- the still working on it model -->
+  <!-- Modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Still Working on it.</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row row-content">
+              <div class="col-12 offset-2">
+                <img id="modal-gif" src="img/giphy.gif" alt="A gif">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn model_close_btn" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <div class="container">
   <div class="row row-content">
     <div class="col-12 col-sm-5 offset-sm-1">
@@ -87,24 +113,28 @@
       <a href="HTI.html" class="btn btn-block btn-primary"><span class="fa fa-align-left"></span> -> <span class="fa fa-picture-o"></span> Hide Text in Image</a>
       <div class="col-12" style="height:50px;"></div>
       <a href="HII.html" class="btn btn-block btn-primary"><span class="fa fa-picture-o"></span> -> <span class="fa fa-picture-o"></span> Hide Image in Image</a>
+      <hr>
+      <!-- <div class="col-12" style="height:50px;"></div> -->
+      <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal"><span class="fa fa-align-left"></span> -> <span class="fa fa-headphones"></span> Hide Text in Audio</button>
       <div class="col-12" style="height:50px;"></div>
-      <a href="HTA.html" class="btn btn-block btn-primary"><span class="fa fa-align-left"></span> -> <span class="fa fa-headphones"></span> Hide Text in Audio</a>
-      <div class="col-12" style="height:50px;"></div>
-      <a href="HIA.html" class="btn btn-block btn-primary"><span class="fa fa-picture-o"></span> -> <span class="fa fa-headphones"></span> Hide Image in Audio</a>
+      <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal"><span class="fa fa-picture-o"></span> -> <span class="fa fa-headphones"></span> Hide Image in Audio</button>
+
       <div class="col-12" style="height:50px;"></div>
     </div>
     <div class="col-12 col-sm-5 offset-sm-1">
       <div class="col-12" style="height:50px;"></div>
 
+<!-- Decoding buttons -->
       <h3>Decode your stuff...</h3>
       <div class="col-12" style="height:50px;"></div>
       <a href="ETI.html" class="btn btn-block btn-primary"><span class="fa fa-align-left"></span> <- <span class="fa fa-picture-o"></span> Extract Text from Image</a>
       <div class="col-12" style="height:50px;"></div>
       <a href="EII.html" class="btn btn-block btn-primary"><span class="fa fa-picture-o"></span> <- <span class="fa fa-picture-o"></span> Extract Image from Image</a>
+      <hr>
+      <!-- <div class="col-12" style="height:50px;"></div> -->
+      <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal"><span class="fa fa-align-left"></span><- <span class="fa fa-headphones"></span> Extract Text from Audio</button>
       <div class="col-12" style="height:50px;"></div>
-      <a href="#" class="btn btn-block btn-primary"><span class="fa fa-align-left"></span><- <span class="fa fa-headphones"></span> Extract Text from Audio</a>
-      <div class="col-12" style="height:50px;"></div>
-      <a href="#" class="btn btn-block btn-primary"><span class="fa fa-picture-o"></span> <- <span class="fa fa-headphones"></span> Extract Image from Audio</a>
+      <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal"><span class="fa fa-picture-o"></span> <- <span class="fa fa-headphones"></span> Extract Image from Audio</button>
       <div class="col-12" style="height:50px;"></div>
     </div>
   </div>
@@ -120,7 +150,7 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="./aboutus.html">About</a></li>
               <li><a href="#">Menu</a></li>
-              <li><a href="./contactus.html">Contact</a></li>
+              <li><a href="./contactus.html">Feedback</a></li>
             </ul>
           </div>
           <div class="col-7 col-sm-5">

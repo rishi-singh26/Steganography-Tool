@@ -50,3 +50,17 @@ canvas {
    margin-right: 0%;
    margin-bottom: 1%; */
 }
+
+.modal-content {
+  background: #121622;
+  color: floralwhite;
+}
+
+.model_close_btn {
+  background-color: #5727F3;
+  color: floralwhite;
+}
+
+#modal-gif {
+  border-radius: 2%;
+}
